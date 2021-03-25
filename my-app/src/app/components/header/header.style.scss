@@ -1,0 +1,27 @@
+.nombre{
+    color:aqua;
+    font-size : 23px;
+}
+
+.background{
+    background: rgb(0, 0, 0);
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+
+}
+
+
+.item-var{
+    --variable:25px;
+    margin: 0 var(--variable);
+}
+
+
+@media (min-width: 0px) and (max-width: 1100px) {
+    .item-var {
+        --variable:24px;
+    }
+}
